@@ -1,10 +1,10 @@
 function sumNums(n, m) {
 
     let result = 0;
-    for (let i = n; i <= m; i++) {
-        result += i    }
-
-    console.log(result)
+    for (let i = Number(n); i <= Number(m); i++) {
+        result += i 
+    }
+    return result;
 }
 
-sumNums(-8, 20)
+console.log(sumNums(-8, 20))

@@ -1,0 +1,3 @@
+function lastKSequence(n, k) {
+    
+}

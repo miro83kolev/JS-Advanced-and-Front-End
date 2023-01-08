@@ -1,0 +1,18 @@
+header {
+    padding: 15px;
+    width: 480px;
+    background-color: #f2dcbb;
+}
+
+ body  {
+    padding: 15px;
+    width: 480px;
+    background-color: #f9f7cf;
+    text-align: left;
+}
+
+footer {
+    padding: 15px;
+    width: 480px;
+    background-color: #f2dcbb;
+}

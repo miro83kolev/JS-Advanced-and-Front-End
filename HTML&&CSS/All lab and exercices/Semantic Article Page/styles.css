@@ -1,0 +1,32 @@
+body {
+    background-color: #e4e978;
+}
+
+.apple-info {    
+    padding: 5px 15px;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 15px;
+    background-color: #f2f4c0;
+}
+
+#one {
+    padding: 5px 15px;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 15px;
+    font-style: italic;
+    color: #5c6e91;
+    background-color: #f2f4c0;   
+
+}
+
+#two {
+    padding: 5px 15px;
+    width: 700px;
+    border: 1px solid #b2ad7d;
+    margin: 15px;
+    font-style: italic;
+    color: #5c6e91;
+    background-color: #f2f4c0;
+}

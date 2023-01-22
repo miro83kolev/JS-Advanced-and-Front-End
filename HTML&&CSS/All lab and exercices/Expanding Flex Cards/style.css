@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    display: flex;
+    border-radius: 8px;
+    gap: 20px;
+    
+}

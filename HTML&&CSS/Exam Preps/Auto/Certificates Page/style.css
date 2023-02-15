@@ -125,7 +125,7 @@ diploma-content p {
 }
 
 .apply {
-    background:linear-gradient(rgba(73, 73, 90, 0.4), rgba(73, 73, 90, 0.3)),  url(./images/sign-up-prompt-background.jpg);
+    background:linear-gradient(rgba(73, 73, 90, 0.5), rgba(73, 73, 90, 0.7)),  url(./images/sign-up-prompt-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;    
@@ -172,4 +172,57 @@ diploma-content p {
     background: transparent;
     color: white;
     border: 1px solid white;
+}
+
+.apply h3 {
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #3e4c5d;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin: 10px;
+    list-style: none;    
+}
+
+footer li a {
+    text-decoration: none;
+    color: #3e4c5d;
+}
+
+footer li i {
+    color: #3e4c5d;
+}
+
+.logo-wrapper-and-copyright {
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+
+.copyright {
+    color: lightgrey;
+    font-size: 14px;
+}
+
+footer .logo-wrapper {
+    max-width: 160px;
+    padding: 18px;
+}
+
+footer .logo-wrapper img {
+    width: 100%;
 }

@@ -1,0 +1,8 @@
+@media all and (max-width: 600px) {
+    
+.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+               
+}

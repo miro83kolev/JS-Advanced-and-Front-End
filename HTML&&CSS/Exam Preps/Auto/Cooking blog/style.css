@@ -1,47 +1,288 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap');
 
-body {
-    box-sizing: border-box;    
-    padding: 0;
-    margin: 0;
-    font-family: 'Gelasio', serif;
-}
 
-.main-header {
+/*footer */
+
+.footer {
+    background-color: rgba(230, 227, 222, 0.8);
+  }
+  
+  .footer .navigation {
+    width: 80%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: #E6E3DE;
-
-}
-
-.main-nav {
+    margin: 0 auto;
+    padding: 4rem 0rem;
+    z-index: 2;
+  }
+  
+  .footer .navigation .nav__items {
     display: flex;
-    justify-content: space-between;
-}
-
-.main-nav .main-nav-list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    
-}
-
-.main-nav .main-nav-list li a {
+    gap: 1rem;
+  }
+  
+  .footer .navigation .nav__items .nav__item {
+    font-size: 22px;
+  }
+  
+  .footer .navigation .nav__items .nav__item .nav__link {
     text-decoration: none;
-}
+    color: var(--clr-text);
+    line-height: 1;
+  }
+  
+  .footer .navigation .nav__items .nav__item:not(:last-child) .nav__link {
+    border-right: 1px solid var(--clr-text);
+    padding-right: 1rem;
+  }
 
-.main-nav-list {
-    align-self: center;
-    align-content: center;
-}
+/*header*/
 
-
-.main-nav .main-nav-login-search {
+.header {
+    background-color: var(--clr-bg);
+  }
+  
+  .header .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--clr-text);
+    padding: 1.5rem 4rem 1rem 2rem;
+  }
+  
+  .header .navigation .logo {
+    font-size: 44px;
+    font-weight: 600;
+  }
+  
+  .header .navigation .nav__items {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    font-size: 24px;
+    gap: 3rem;
+    color: var(--clr-text);
+  }
+  
+  .header .navigation .nav__items .nav__link {
+    text-decoration: none;
+    color: var(--clr-text);
+  }
+  
+  .header .navigation .login {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header .navigation .login .nav__btn {
+    color: var(--clr-white);
+    background-color: var(--clr-text);
+    font-family: "Arial", serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+  }
+  
+  .header .navigation .login .search {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--clr-text);
+  }
+
+/*hero*/
+
+#hero {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    position: relative;
+    margin-bottom: 6rem;
+  }
+  
+  #hero .hero__img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #hero .hero__text {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #hero .hero__text .hero__title {
+    color: var(--clr-white);
+    font-weight: 600;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  #hero .hero__text .search {
+    position: relative;
+  }
+  
+  #hero .hero__text .search .icon {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    font-size: 20px;
+    opacity: 0.7;
+  }
+  
+  #hero .hero__text .search input {
+    width: 500px;
+    height: 3rem;
+    border: none;
+    opacity: 0.7;
+
+
+
+
+/*main*/
+
+:root {
+    --clr-white: #fff;
+    --clr-bg: #e6e3de;
+    --clr-text: #554938;
+    --clr-black: #000;
+    --clr-white: #fff;
+    --clr-red-btn: #d74930;
+  }
+  
+  body {
+    font-family: "Gelasio", serif;
+    background-image: url("../Media/background.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: none;
+  }
+  
+  .section {
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+  
+  .btn {
+    color: var(--clr-white);
+    background-color: var(--clr-text);
+    font-family: "Arial", serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    border: none;
+    cursor: pointer;
+    padding: 0.3rem 0.5rem;
+  }
+  
+  h1 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+  h2 {
+    font-size: 48px;
+    line-height: 64px;
+  }
+  h3 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  h5 {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+/*recepies*/
+
+#recipes .recipe__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--clr-bg);
+  }
+  
+  #recipes .recipe__row:first-child {
+    margin-bottom: 4rem;
+  }
+  
+  #recipes .recipe__row .recipe__img {
+    width: 59%;
+  }
+  
+  #recipes .recipe__row .recipe__text {
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  #recipes .recipe__row .recipe__text .recipe__title {
+    font-size: 44px;
+  }
+  
+  #recipes .recipe__row .recipe__text .recipe__desc {
+    font-size: 32px;
+    margin-bottom: 2rem;
+  }
+  
+  #recipes .recipe__row .recipe__text .btn {
+    padding: 0.6rem 1.5rem;
+  }
+ 
+  /*toolbox*/
+
+#toolbox {
+    text-align: center;
+    width: 65%;
+  }
+  
+  #toolbox .toolbox__title {
+    background-color: var(--clr-bg);
+    display: inline;
+    text-align: center;
+    font-size: 32px;
+    padding: 0.5rem 3rem;
+    opacity: 0.8;
+  }
+  
+  #toolbox .cards__grid {
+    margin: 1rem 0 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6rem;
+  }
+  
+  #toolbox .cards__grid .card {
+    background-color: rgba(230, 227, 222, 0.8);
+  }
+  
+  #toolbox .cards__grid .card .card__text {
+    font-style: italic;
+    font-size: 24px;
+    padding: 1rem;
+    font-weight: 600;
+  }
+  
+  #toolbox .btn {
+    background-color: var(--clr-red-btn);
+    width: 300px;
+    padding: 0.5rem 0;
+  }
 

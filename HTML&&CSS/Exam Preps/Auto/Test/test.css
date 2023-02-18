@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-img {
+  width: 15%;
+}
+.container-img img {
+  width: 100%;
+}
+
+.wrapper {
+  margin: 10px;
+}

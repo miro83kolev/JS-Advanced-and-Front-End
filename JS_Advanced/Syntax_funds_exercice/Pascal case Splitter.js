@@ -1,9 +1,6 @@
-function pascalCaseSplitter(text) {
-  let arr = [];
-  let wordsLine = text;
-  let regex = new RegExp(/[A-Z][a-z]+/g);
-  arr = wordsLine.match(regex);
-  console.log(arr.join(", "));
+function pascalCaseSplitter(text){
+  let word = text.split(/(?=[A-Z])/);
+  console.log(word.join(", "))
 }
 
 pascalCaseSplitter("SplitMeIfYouCanHaHaYouCantOrYouCan");

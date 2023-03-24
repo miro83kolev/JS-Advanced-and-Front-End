@@ -18,3 +18,6 @@ function create(sentences) {
     event.target.children[0].style.display = "block";
   }
 }
+
+
+

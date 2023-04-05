@@ -55,7 +55,7 @@ function solve() {
     ]);
     editBtn.addEventListener("click", editTicketHandler);
     continueBtn.addEventListener("click", continueTicketHandler);
-    otherDomSelectors.nextBtn.setAttribute("disabled", true);
+    otherDomSelectors.nextBtn.setAttribute("disabled", true);    
     otherDomSelectors.form.reset();
   }
 

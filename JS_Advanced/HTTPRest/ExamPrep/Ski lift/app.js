@@ -65,7 +65,6 @@ function solve() {
         continueBtn.addEventListener('click', continueTicketHandler);
         otherDOMSelectors.form.reset();
         otherDOMSelectors.nextBtn.setAttribute('disabled', true);   
-
     }
 
     function editTicketHandler() {
